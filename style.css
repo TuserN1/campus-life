@@ -1,0 +1,8 @@
+.nav , nav > p,a { 
+    display: inline-block;
+    margin-left: 5vw;
+}
+body{
+    background-color: #F4F7F8;
+
+}
