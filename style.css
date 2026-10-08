@@ -7,14 +7,72 @@ body{
 
 }
 main{
-    margin-left: 15vw;
-    margin-right: 15vw;
-
+    background-color: #08111D;
+    
 }
 div{
+    width: 50%;
     display: inline-block;
-    color: blue;
+    color:#FFFFFF;
 }
 .imageinisial{
     display: inline-block;
+    width: 49%;
+    height: 100%;
+
+
 }
+#campus{
+    font-family: Inter,sans-serif;
+font-weight: 900;
+font-size: 76px;
+padding-left: 50px;
+
+}
+#life{
+    display: inline-block;
+    color: #034BFF;
+    font-family: Inter, sans-serif;
+    font-weight: 900;
+    font-size: 88px;
+    padding-left: 50px;
+
+}
+#wave{
+    margin-left: 20px;
+    display: inline-block;
+    color: #C7F64A;
+    font-family: inter,sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+
+
+}
+#frst-h{
+    font-family: Inter,sans-serif;
+    font-weight: 800;
+    font-style: Extra Bold;
+    font-size: 26px;
+    padding-left: 50px;
+}
+#dsply-para{
+
+
+}
+
+#discoverbut{
+    color: #FFFFFF;
+    background: #034BFF;
+    border:none;
+    padding-left: 50px;
+
+}
+#eventsbut{
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #8EABFF;
+    padding-left: 50px;
+
+}
+
+
