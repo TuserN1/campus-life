@@ -5,7 +5,7 @@
 
 }
 header {
-   height: max-content;
+   height: 52px;
    font-size: 0;
 }
 header > * {
@@ -13,14 +13,87 @@ header > * {
     display: inline-block;
     background-color: black;
     width: 20%;
-    height: 100px;
+    height: 100%;
     
 }
 header > nav {
     display: inline-block;
     background-color: blue;
     width: 60%;
-    height: 100px;
     border: 0;
     
+}
+main{
+    background-color: brown;
+    height: 1484px;
+}
+.hero{
+    font-size: 0;
+    background-color: chartreuse;
+    height: 31.06%;
+
+}
+.hero > div{
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+}
+#txt{
+    background-color: black;
+}
+#img{
+    background-color: rgb(136, 61, 61);
+}
+.statistic{
+    font-size: 0;
+    background-color: cornflowerblue;
+    height: 6.19%;
+
+}
+.statistic > div{
+    display: inline-block;
+    background-color: black;
+    height: 100%;
+    width: 25%;
+}
+.prsntcamp{
+    background-color: aqua;
+    height: 19%;
+
+}
+.prsntcamp > div{
+    background-color: brown;
+    height: 100%;
+    width: 50%;
+}
+.parcours{
+    background-color: darkgreen;
+    height: 16.32%;
+    font-size: 0;
+}
+.parcours > div{
+    font-size: 0;
+    display: inline-block;
+    background-color: rgb(149, 185, 29);
+    height: 100%;
+    width: 16.66666666666667%;
+}
+.events{
+    background-color: blueviolet;
+    height: 16.44%;
+    font-size: 0;
+}
+.events > div{
+    background-color: burlywood;
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+}
+.carrousel{
+    background-color: cadetblue;
+    height: 11.05121293800539%;
+}
+footer{
+    height: 283px;
+    background-color: blue;
 }
