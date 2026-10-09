@@ -2,98 +2,203 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Inter ,sans-serif;
 
 }
 header {
-   height: 52px;
+   height: 80px;
    font-size: 0;
 }
 header > * {
+    text-align: center;
+    vertical-align: middle;
     border: 0;
     display: inline-block;
-    background-color: black;
+    background-color: rgb(249, 247, 247);
     width: 20%;
     height: 100%;
     
 }
+.logo{
+    margin-bottom: -10px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.navig>ul>li{
+    margin-top: 30px;
+    font-size: 15px;
+    color: black;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+
+}
 header > nav {
     display: inline-block;
-    background-color: blue;
+    background-color: rgb(251, 251, 252);
     width: 60%;
     border: 0;
     
 }
+header >.joinbut>span{
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+header >.joinbut >button{
+    background-color: #034BFF;
+    color: #FFFFFF;
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+}
+header >.joinbut{
+    margin-top: 10px;
+    vertical-align: middle;
+    
+    
+}
 main{
     background-color: brown;
-    height: 1484px;
+    height: max-content;
 }
 .hero{
     font-size: 0;
-    background-color: chartreuse;
-    height: 31.06%;
+    background-color:#08111D;
+    height: max-content;
 
 }
 .hero > div{
+    
     display: inline-block;
     height: 100%;
-    width: 50%;
+    
 }
 #txt{
-    background-color: black;
+    width: 45%;
+}
+#txt >*{
+    color: #FFFFFF;
+    font-size: 20;
 }
 #img{
-    background-color: rgb(136, 61, 61);
+    place-content: center;
+    height: 581;
+    width: 55%;
 }
+#img > img {
+    height: 100%;
+    width: 100%;
+}
+
 .statistic{
     font-size: 0;
     background-color: cornflowerblue;
-    height: 6.19%;
+    height: 89px;
 
 }
 .statistic > div{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
     display: inline-block;
-    background-color: black;
+    background-color: rgb(155, 121, 121);
     height: 100%;
     width: 25%;
 }
 .prsntcamp{
     background-color: aqua;
-    height: 19%;
+    height: 282px;
+    font-size: 15px;
 
 }
 .prsntcamp > div{
     background-color: brown;
     height: 100%;
-    width: 50%;
+    
+    
+}
+#prsntxt{
+    width: 40%;
+}
+#prsnimg{
+    width: 60%;
 }
 .parcours{
     background-color: darkgreen;
-    height: 16.32%;
+    height: 245px;
     font-size: 0;
+}
+#overparc{
+    font-size: 15px;
+    display: block;
+    height: 30%;
+    width: 100%;
+}
+#overparc >h2{
+    font-size: 5pt;
 }
 .parcours > div{
-    font-size: 0;
+    color: #08111D;
     display: inline-block;
     background-color: rgb(149, 185, 29);
-    height: 100%;
+    height: 70%;
     width: 16.66666666666667%;
 }
+
 .events{
     background-color: blueviolet;
-    height: 16.44%;
+    height: 245px;
     font-size: 0;
 }
 .events > div{
+    font-size: 15px;
     background-color: burlywood;
     display: inline-block;
     height: 100%;
     width: 25%;
 }
+.events > div >img{
+    display: inline-block;
+}
+#eventdiv{
+    
+    height: 90%;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 20px;
+}
 .carrousel{
+    font-size: 0;
     background-color: cadetblue;
-    height: 11.05121293800539%;
+    height: 163px;
+}
+.carrousel > #photo {
+    
+    display: inline-block;
+    background-color: rgb(34, 67, 67);
+    height: 100%;
+    width: 23%;
+
+    
+}
+.carrousel > #other {
+    display: inline-block;
+    background-color: darkturquoise;
+    height: 100%;
+    width: 77%;
+
+    
 }
 footer{
+    font-size: 0;
     height: 283px;
     background-color: blue;
+}
+footer > div{
+    background-color: white;
+    display: inline-block;
+    height: 100%;
+    width: 33.33%;
 }
