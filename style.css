@@ -20,26 +20,38 @@ header > * {
     
 }
 .logo{
-    margin-bottom: -10px;
+    
     font-size: 30px;
     font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: -10px;
 
 }
 .navig>ul>li{
     margin-top: 30px;
-    font-size: 15px;
+    font-size: 16px;
     color: black;
     list-style-type: none;
     display: inline-block;
     margin-right: 20px;
+    padding-bottom: 5px;
+
 
 }
+.navig>ul>li:hover{
+    color: #034BFF;
+    border-bottom: 2px solid #034BFF;
+}
 header > nav {
+
     display: inline-block;
     background-color: rgb(251, 251, 252);
     width: 60%;
     border: 0;
     
+}
+header >.joinbut{
+    padding-top: 5px;
 }
 header >.joinbut>span{
     font-size: 35px;
@@ -73,14 +85,66 @@ main{
     
     display: inline-block;
     height: 100%;
+
     
 }
-#txt{
+.txt{
     width: 45%;
+    
+    
 }
-#txt >*{
+.txt >*{
     color: #FFFFFF;
-    font-size: 20;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom:  50px;
+    
+}
+.camp{
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 76px;
+    padding-left: 50px;
+}
+.life{
+    display: inline-block;
+    color: #034BFF;
+    font-weight: 900;
+    font-size: 76px;
+    padding-left: 50px;
+}
+.wave{
+    display: inline-block;
+    font-weight: 900;
+    font-size: 76px;
+    padding-left: 20px;
+    color: #C7F64A;
+}
+.vie{
+    font-weight: 800;
+    font-style: Extra Bold;
+    font-size: 26px;
+    padding-left: 50px;
+}
+.txt>p{
+    font-family: Inter,sans-serif;
+    font-style: Extra Bold;
+    font-size: 14px;
+    padding-left: 50px;
+
+}
+#but1{
+    color: #FFFFFF;
+    background: #034BFF;
+    border:none;
+    padding:5px;
+    margin-left: 50px;
+}
+#but2{
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #8EABFF;
+    padding-left: 50px;
 }
 #img{
     place-content: center;
@@ -90,6 +154,7 @@ main{
 #img > img {
     height: 100%;
     width: 100%;
+    padding-top: 5px;
 }
 
 .statistic{
